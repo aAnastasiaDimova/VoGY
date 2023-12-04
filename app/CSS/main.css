@@ -96,14 +96,15 @@ header{
     position: absolute;
     opacity: 0;
     width: 1833px;
-    height: 1100px;
+    height: 950px;
+    
     transition: opacity 1s ease-in-out;
   }
   
   #image-container img.active {
     opacity: 1;
     width: 1833px;
-    height: 1100px;
+    height: 950px;
   }
 
   .overlay {
@@ -111,7 +112,7 @@ header{
     top: 0;
     left: 0;
     width: 1833px;
-    height: 1100px;
+    height: 950px;
     background-color: rgba(0, 0, 0, 0.5);
    
     
@@ -126,7 +127,7 @@ header{
 
 .cvs{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     position: relative;
  
@@ -156,6 +157,65 @@ h1{
     margin-top: -700px;
     font-size: 100px;
 }
+
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700x;
+    padding: 150px;
+ 
+
+}
+h2{
+    font-size: 70px;
+    text-align: center;
+}
+article{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(34, 174, 255);
+    margin-left: 90px;
+    color: white;
+    font-size: 20px;
+    border-radius: 0px 0px 30px 30px;
+  }
+ 
+.news p{
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    line-height: 27px;
+}
+.newclass{
+    border-radius: 0px 0px 30px 30px;
+    height: 244px;
+    width: 294px;
+    background-position: center;
+    block-size: cover;
+    border: 3px solid rgb(34, 174, 255);
+}
+#imgnews1{
+    background-image: url(../img/news1.png);
+
+}
+#imgnews2{
+    background-image: url(../img/news2.png);
+
+}
+#imgnews3{
+    background-image: url(../img/news3.png);
+ 
+}
+#imgnews4{
+    background-image: url(../img/news4.png);
+    background-position: left;
+}
+
+
+
+
 
 
 .footer-one{
