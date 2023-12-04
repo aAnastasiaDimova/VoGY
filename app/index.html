@@ -6,6 +6,9 @@
     <title>ВоГУ - Вологодский государственный университет</title>
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/all.css">
+    <style>
+        html { overflow:  hidden; }
+    </style>
 </head>
 <body>
     <div class="menusboky"> 
@@ -18,28 +21,81 @@
         <i class="fa-regular fa-eye"></i>
         <i class="fa-solid fa-magnifying-glass"></i>  -->
         <p class="EN">EN </p>
-
     </div>
+
     <div class="nesboky">
         <header>
-        <div class="ikonka">
-            <img src="https://sun9-74.userapi.com/impg/Go67wDPwiRQCJXOJ6VVT5mwbQu3i0KOs5g8YPA/ie3kOaj1Qvk.jpg?size=200x200&quality=96&sign=ec2d9c6d080de36b8318ae29a360114b&type=album" alt="">
+            <div class="ikonka">
+                <img src="https://sun9-74.userapi.com/impg/Go67wDPwiRQCJXOJ6VVT5mwbQu3i0KOs5g8YPA/ie3kOaj1Qvk.jpg?size=200x200&quality=96&sign=ec2d9c6d080de36b8318ae29a360114b&type=album" alt="">
+            </div>
+            <div class="info">
+                <p>Абитуриентам</p>
+                <p> Студентам </p>
+                <p> Сотрудникам </p>
+                <p> Об университете</p>		  
+            </div>
+        </header>
+        <div>
+            <img src="https://sun9-49.userapi.com/impg/MeYfWcQuRRygAuuGRbfMqLy9ar3cJ0gIyVkI
+            Ug/14YTcadRAkQ.jpg?size=1323x696&quality=96&sign=d8c582072d8810e9c69bf5f0186c84c0&type=album" alt="">
+            <img src="https://sun9-49.userapi.com/impg/MeYfWcQuRRygAuuGRbfMqLy9ar3cJ0gIyVkIUg/14YTcadRAkQ
+            .jpg?size=1323x696&quality=96&sign=d8c582072d8810e9c69bf5f0186c84c0&type=album" alt="">
+            <img src="https://sun9-49.userapi.com/impg/MeYfWcQuRRygAuuGRbfMqLy9ar3cJ0gIyVkIUg/14Y
+            TcadRAkQ.jpg?size=1323x696&quality=96&sign=d8c582072d8810e9c69bf5f0186c84c0&type=album" alt="">
         </div>
-        <div class="info">
-            <p>Абитуриентам</p>
-            <p> Студентам </p>
-            <p> Сотрудникам </p>
-            <p> Об университете</p>		  
-       </div>
-    </header>
-    <div>
-        <img src="https://sun9-49.userapi.com/impg/MeYfWcQuRRygAuuGRbfMqLy9ar3cJ0gIyVkI
-        Ug/14YTcadRAkQ.jpg?size=1323x696&quality=96&sign=d8c582072d8810e9c69bf5f0186c84c0&type=album" alt="">
-        <img src="https://sun9-49.userapi.com/impg/MeYfWcQuRRygAuuGRbfMqLy9ar3cJ0gIyVkIUg/14YTcadRAkQ
-        .jpg?size=1323x696&quality=96&sign=d8c582072d8810e9c69bf5f0186c84c0&type=album" alt="">
-        <img src="https://sun9-49.userapi.com/impg/MeYfWcQuRRygAuuGRbfMqLy9ar3cJ0gIyVkIUg/14Y
-        TcadRAkQ.jpg?size=1323x696&quality=96&sign=d8c582072d8810e9c69bf5f0186c84c0&type=album" alt="">
     </div>
-    </div>
+    <main>
+        <h2 class="basisHeaderEdu">Образование</h2>
+        <section class="basisEduSection">
+            <article class="freeEdu" id="freeEdu">
+                <p class="freeEduText">Бюджетных мест: 659</p>
+                <p class="freeEduText">Средний проходной балл: 181</p>
+                <p class="freeEduText">Минимальные баллы:</p>
+                <button class="freeEduButtonShow" id="showFreeButton">
+                    <a href="#eduFreeTextList" class="sdf">Показать</a>
+                </button>
+                <div id="eduFreeTextList">
+                    <ul>
+                        <li>Русский язык: 100</li>
+                        <li>Математика (б): 100</li>
+                        <li>Математика (п): 100</li>
+                        <li>Химия: 100</li>
+                        <li>Биология: 100</li>
+                        <li>Литература: 100</li>
+                        <li>Информатика: 100</li>
+                    </ul>
+                    <button class="freeEduButtonClose" id="clearFreeButton">
+                        <a href="#showFreeButton" class="sdf">Скрыть</a>
+                    </button>
+                </div>
+            </article>
+            <article class="paidEdu" id="paidEdu">
+                <p class="paidEduText">Платных мест: 659</p>
+                <p class="paidEduText">Стоимость обучения: 73 тыс. р. в год</p>
+                <p class="paidEduText">Минимальные баллы:</p>
+                <button class="paidEduButtonShow" id="showPaidButton">
+                    <a href="#eduPaidTextList" class="sdf">Показать</a>
+                </button>
+                <div id="eduPaidTextList">
+                    <ul>
+                        <li>Русский язык: 100</li>
+                        <li>Математика (б): 100</li>
+                        <li>Математика (п): 100</li>
+                        <li>Химия: 100</li>
+                        <li>Биология: 100</li>
+                        <li>Литература: 100</li>
+                        <li>Информатика: 100</li>
+                    </ul>
+                    <button class="paidEduButtonClose" id="clearPaidButton">
+                        <a href="#ShowPaidButton" class="sdf">Скрыть</a>
+                    </button>
+                </div>
+            </article>
+        </section>
+
+        <h2 class="basisHeaderNews">Новости</h2>
+        <div class="newsBlock"></div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
