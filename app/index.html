@@ -3,124 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>ВоГУ - Вологодский государственный университет</title>
+
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/all.css">
     <script src="Scripts/script1.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
 </head>
+
+
+
 <body>
     <div class="menusboky"> 
-        <img class="sboky" src="img/🦆 icon _menu_.svg" alt="">
+        <img class="sboky"  src="img/🦆 icon _menu_.svg"  alt="" onclick="ShowBlocks()" >
         <img class="sboky" src="img/🦆 icon _user_.svg" alt="">
         <img class="sboky" src="img/🦆 icon _search_.svg" alt="">
         <img class="sboky" src="img/🦆 icon _eye_.svg" alt="">
         <p class="EN">EN </p>
 
     </div>
+ 
 
 
 
     <div class="nesboky">
+        <div id="block1" onclick="removeBlock('block1')">Блок 1</div>
+        <div id="block2" onclick="removeBlock('block2')">Блок 2</div>
         <header>
-        <div class="ikonka">
-            <img src="img/ikonka.png" alt="">
-            <p>Вологодский государственный университет</p>
-        </div>
-        <div class="info">
-            <p>Абитуриентам</p>
-            <p> Студентам </p>
-            <p> Сотрудникам </p>	  
-       </div>
+            <div class="ikonka">
+                <img src="img/ikonka.png" alt="">
+                <p>Вологодский государственный университет</p>
+            </div>
+            <div class="info">
+                <p>Абитуриентам</p>
+                <p> Студентам </p>
+                <p> Сотрудникам </p>	  
+            </div>
         </header>
 
 
 
-   
+        <main>
+            <div id="image-container">
+                <img  class="active" src="https://vuzopedia.ru/storage/app/uploads/public/635/689/ad4/635689ad427c7246769984.jpg" alt="">
+                <img src="https://vogu35.ru/images/news/2019/october/24/2/vologodskoe_maslo.jpg" alt="">
+                <img src="https://auditoriya.vogu35.ru/wp-content/uploads/2019/08/Qo89Zfj83h0.jpg" alt="">
+                <img src="https://vogu35.ru/images/news/2018/november/10/2/dod_2.jpg" alt="">
+                <img src="https://auditoriya.vogu35.ru/wp-content/uploads/2018/11/IMG_20181105_165250.jpg" alt="">
+            </div>
 
-        <div id="image-container">
-            <img  class="active" src="https://vuzopedia.ru/storage/app/uploads/public/635/689/ad4/635689ad427c7246769984.jpg" alt="">
-            <img src="https://vogu35.ru/images/news/2019/october/24/2/vologodskoe_maslo.jpg" alt="">
-            <img src="https://auditoriya.vogu35.ru/wp-content/uploads/2019/08/Qo89Zfj83h0.jpg" alt="">
-            <img src="https://vogu35.ru/images/news/2018/november/10/2/dod_2.jpg" alt="">
-            <img src="https://auditoriya.vogu35.ru/wp-content/uploads/2018/11/IMG_20181105_165250.jpg" alt="">
-        </div>
-        <div>
-            
-        </div>
 
-        <div class="overlay"> </div>
-
-       
+            <div class="overlay">    <h2> ВоГУ - твой путь к <br> успеху  </h2> <br> <div class="palka"></div></div> 
 
 
 
-        <div class="zachem">
+
+            <div class="zachem">
 
             <div class="cvs">
-                <div class="cvadrat">   
+                <!-- <div class="cvadrat">   
                     <h3>Об университете</h3>
                     <p>декабря1100</p>
-                </div>
+                    <button>ПОДРОБНЕЕ</button>
+                </div> 
+                -->
                 <div class="cvadrat"> 
                     <h3>День открытых дверей </h3>
-                    <p> 11 декабря в 11:00 </p>
-                       <p> Почувствуй себя студентом университета и узнай всё о поступлении </p>
+                    <p> Состоится 11 декабря в 11:00 <br>
+                    По адресу г. Вологда, ул. Ленина, 15 <br>  
+                    Почувствуй себя студентом университета, узнай всё о поступлении и задай итересующие вопросы.</p>
+                    <button>ЗАРЕГЕСТРИРОВАТЬСЯ</button>
                 </div>
                 <div class="cvadrat"> 
                     <h3>Приемная комиссия</h3>
-                    <p>Поможем вам с подготовкой к поступлению, а также с подачей документов</p>
+                    <p>Подберем курсы для школьников по подготовке к ЕГЭ. Подготовим к вступительным испытаниям. Поможем  с подачей документов на учебу в университете.</p>
+                    <a href="https://priem.vogu35.ru/"><button>ПОДРОБНЕЕ</button></a>
                 </div>
             </div>
 
 
 
-            <h1>ВоГУ - Вологодский государственный университет</h1> 
+            </div>
 
-        </div>
-        </div>
+
+
 
    
         <h2>Новости</h2>
     <section class="news">
+
         <article>
             <div class="newclass" id="imgnews1"></div>
             <p>Преподаватели ВоГУ ­– победители конкурса грантов Российского научного фонда</p>
-            
         </article>
+
         <article>
             <div class="newclass"  id="imgnews2"></div>
             <p>Более 70 докладов представили на секциях конференции «Воспитание успешной личности»</p>
         </article>
+
         <article>
             <div class="newclass" id="imgnews3"></div>
             <p>ВоГУ наращивает взаимодействие с работодателями</p>
         </article>
+
         <article>
             <div class="newclass" id="imgnews4"></div>
             <p>В ВоГУ завершилась XVII Ежегодная научная сессия аспирантов и молодых ученых</p>
         </article>
+        
+        </section>
+    </main>
+    </div>
+       
 
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
 </body>
-
 
 
 
