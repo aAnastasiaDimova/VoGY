@@ -18,7 +18,7 @@ function changeImage() {
   // Запускаем функцию changeImage каждые 5 секунд
   setInterval(changeImage, 5000)
 
-function showBlocks() {
+function showBlocks(){
   var block1 = document.getElementById("block1");
   var block2 = document.getElementById("block2");
   
@@ -26,7 +26,7 @@ function showBlocks() {
   block2.style.display = "block";
 }
 
-function removeBlock(id) {
+function removeBlock(id){
   var block = document.getElementById(id);
   
   block.style.display = "none";

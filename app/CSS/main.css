@@ -73,9 +73,7 @@ header{
 
 }
 
-.hidden {
-    display: none;
-  }
+
   #block1, #block2 {
     display: none;
     height: 2000x;
@@ -118,6 +116,7 @@ header{
   .overlay h2{
     font-size: 130px;
     padding: 250px 100px 100px 100px;
+    color: white;
   }
 .palka{
     display: flex;
@@ -132,7 +131,7 @@ header{
 
 .zachem{
     width: 1833px;
-    height:200px;
+    height:300px;
     
  
 }
@@ -182,7 +181,6 @@ header{
     border: none;
     font: inherit;
     font-size: 25px;
-    color: inherit;
     background-color: transparent;
 	text-decoration: underline;
     position: absolute;
@@ -190,8 +188,24 @@ header{
     margin-bottom: 60px;
 
 }
+.cvs button{
+    color: white;
+}
+
+.cvadrat:nth-child(2) button{
+    color: black;
+}
 
 
+
+
+h2{
+    color: rgb(34, 174, 255);
+    text-align: center;
+    font-size: 70px;
+    text-align: center;
+    
+}
 
 
 
@@ -202,22 +216,17 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 700x;
-    padding: 150px;
+    padding: 30px 120px 30px 120px;
  
 
 }
-h2{
-    font-size: 70px;
-    text-align: center;
-}
 article{
-    width: 300px;
-    height: 450px;
+    width: 350px;
+    height: 440px;
     background-color: rgb(34, 174, 255);
-    margin-left: 90px;
     color: white;
     font-size: 22px;
-    border-radius: 0px 0px 30px 30px;
+    border-radius: 0px 0px 60px 60px;
   }
  
 .news p{
@@ -229,7 +238,7 @@ article{
 .newclass{
     border-radius: 0px 0px 30px 30px;
     height: 244px;
-    width: 294px;
+    width: 344px;
     background-position: center;
     block-size: cover;
     border: 3px solid rgb(34, 174, 255);
@@ -250,11 +259,43 @@ article{
     background-image: url(../img/news4.png);
     background-position: left;
 }
+#imgnews5{
+    background-image: url(../img/news5.png);
+ 
+}
+#imgnews6{
+    background-image: url(../img/news6.png);
+ 
+}
+#imgnews7{
+    background-image: url(../img/news7.png);
+ 
+}
+#imgnews8{
+    background-image: url(../img/news8.png);
+ 
+}
+.novosti{
+    padding-bottom: 150px;
+    margin-top: 150px;
+}
+.novosti h2{
+    color: rgb(34, 174, 255);
+    margin-bottom: 30px;
+    font-size: 70px;
+    text-align: center;
 
+}
+.bolshe{
+    color: rgb(34, 174, 255);
+    margin-top: 30px;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
 
-
-
-
+    
+}
 
 .footer-one{
     background-color: rgb(26, 25, 25);
