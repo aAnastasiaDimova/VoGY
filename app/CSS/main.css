@@ -255,11 +255,26 @@ header{
     margin-top: 100px;
 }
 
-.newsBlock {
+.newsBlockPhoto {
     height: 250px;
     width: 250px;
-    border-radius: 6px;
+    border: 10px solid #13A0CC;
     border-color: #13A0CC;
     background-color: white;
     margin: auto;
+    margin-top: 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.newsBlockText {
+    height: 250px;
+    width: 250px;
+    border: 10px solid #13A0CC;
+    border-color: #13A0CC;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
