@@ -24,7 +24,8 @@
     font-size: 25px;
     text-align: center;
     margin-top: 40px;
-    font-weight: 100;
+    font-weight: 300;
+
 }
 
 .nesboky{
@@ -74,15 +75,37 @@ header{
 }
 
 
-  #block1, #block2 {
-    display: none;
-    height: 2000x;
+  #block2 {
+    height: 2000px;
     width: 2000px;
+    position: fixed;
     background-color: rgb(26, 25, 25);
-    margin-left: 70px;
     z-index: 1;
+    margin-left: -70px;
+    display: none;
+    padding: 40px 220px 140px 220px;
   }
+  #block2 P{
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    
+  }
+  #block1{
+    background: url(../img/x.png);
+    margin-left: -60px;
+    margin-top: 40px;
+    z-index: 2;
+    background-position: center;
+    block-size: cover;
+    width: 45px;
+    height: 45px;
+    display: none;
+    position: fixed;
+    
+    
 
+  } 
 
 
 #image-container img {
