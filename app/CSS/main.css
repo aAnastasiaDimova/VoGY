@@ -73,7 +73,9 @@ header{
 
 
 }
+.obynik .bolshe{
 
+}
 
   #block2 {
     height: 2000px;
@@ -186,6 +188,7 @@ header{
 .cvadrat:nth-child(2){
     background-color: rgb(242, 250, 255);
     color: rgb(34, 174, 255);
+    box-shadow: 4px 4px 8px -3px rgba(0, 114, 131, 0.23);
 
 }
   .cvadrat p{
@@ -217,6 +220,7 @@ header{
 
 .cvadrat:nth-child(2) button{
     color: black;
+    
 }
 
 
@@ -227,13 +231,47 @@ h2{
     text-align: center;
     font-size: 70px;
     text-align: center;
+
     
+}
+.obynik {
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.obynik h2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+
 }
 
 
+.obynik img{
+    width: 150px;
+    height: 150px;
+
+}
+.obynik div{
+    font-size: 22px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
 
 
+}
+.bolshes{
+    color: rgb(34, 174, 255);
+    margin-top: 30px;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
 
+.obynik p{
+    padding-top: 60px;
+    text-align: justify;
+}
 .news{
     display: flex;
     justify-content: space-between;
@@ -265,13 +303,14 @@ article{
     background-position: center;
     block-size: cover;
     border: 3px solid rgb(34, 174, 255);
+    background-size: cover;
 }
 #imgnews1{
     background-image: url(../img/news1.png);
 
 }
 #imgnews2{
-    background-image: url(../img/news2.png);
+    background-image: url(https://vologda-news.net/img/20231201/e91256bce057b629c86e9729cb1e7bce.jpg);
 
 }
 #imgnews3{
@@ -325,7 +364,7 @@ article{
     color: rgb(255, 255, 255);
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 20px;
     padding-right: 120px;
     padding-left: 120px;
