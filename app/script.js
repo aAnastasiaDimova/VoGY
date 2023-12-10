@@ -13,6 +13,8 @@ showPaidButton.addEventListener("click", PaidFunction)
 
 clearPaidButton.addEventListener("click", PaidFunction)
 
+
+
 function FreeFunction (){
     showFreeButton.classList.toggle("ShowFreeButton")
     backFree.classList.toggle("FreeEduBack")

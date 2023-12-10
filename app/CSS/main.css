@@ -48,6 +48,10 @@ header{
 
 
 
+main{
+    margin-left: 70px;
+}
+
 .basisEduSection{
     display: -webkit-flex;
     flex-direction: row;
@@ -59,6 +63,7 @@ header{
 
 .basic{
     font-family: Roboto, sans-serif;
+    margin-left: 70px;
 }
 .basisHeaderEdu{
     color: #13A0CC;
@@ -255,26 +260,245 @@ header{
     margin-top: 100px;
 }
 
-.newsBlockPhoto {
-    height: 250px;
-    width: 250px;
-    border: 10px solid #13A0CC;
-    border-color: #13A0CC;
-    background-color: white;
-    margin: auto;
-    margin-top: 40px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+
+.news{
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.newsBlockText {
+.newsBlock{
+    height: auto;
+    width: 270px;
+    position: relative;
+    margin-top: 60px;
+}
+
+
+/* Рамки и фотографии */
+#PhotoFrame1{
     height: 250px;
     width: 250px;
     border: 10px solid #13A0CC;
     border-color: #13A0CC;
     background-color: white;
     margin: auto;
-    margin-top: 40px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    background-image: url(https://auditoriya.vogu35.ru/wp-content/uploads/2022/03/1-1-1024x613.jpg);
+    background-size: cover;
+}
+
+#PhotoFrame2{
+    height: 250px;
+    width: 250px;
+    border: 10px solid #13A0CC;
+    border-color: #13A0CC;
+    background-color: white;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    background-image: url(https://scientificrussia.ru/images/s/36gs-large.jpg);
+    background-size: cover;
+}
+
+#PhotoFrame3{
+    height: 250px;
+    width: 250px;
+    border: 10px solid #13A0CC;
+    border-color: #13A0CC;
+    background-color: white;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    background-image: url(https://sport-pulse.kz/wp-content/uploads/2023/08/pravila-nastolnogo-tennisa.jpeg);
+    background-size: cover;
+}
+
+#PhotoFrame4{
+    height: 250px;
+    width: 250px;
+    border: 10px solid #13A0CC;
+    border-color: #13A0CC;
+    background-color: white;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    background-image: url(https://sputnik.kg/img/104800/66/1048006696_511:0:2559:2048_1920x0_80_0_0_c9d0be3111e58420edd2123495dbdcc8.jpg);
+    background-size: cover;
+}
+
+#PhotoFrame5{
+    height: 250px;
+    width: 250px;
+    border: 10px solid #13A0CC;
+    border-color: #13A0CC;
+    background-color: white;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    background-image: url(https://auditoriya.vogu35.ru/wp-content/uploads/2020/09/1-4.jpg);
+    background-size: cover;
+}
+
+/* бекграунд текста с новостями */
+
+#TextBack1 {
+    height: 250px;
+    width: 270px;
+    background-color: #0E83A8;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    color: rgb(189, 13, 13);
+    animation: none;
+    display: block;
+    transition: 
+        transform 0.5s;
+}
+
+#news1:hover #TextBack1{
+    transform: translate(0px, 140px);
+}
+#TextBack2 {
+    height: 210px;
+    width: 270px;
+    background-color: #0E83A8;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    color: white;
+    display: block;
+    transition: 
+        transform 0.5s;
+}
+#news2:hover #TextBack2{
+    transform: translate(0px, 180px);
+}
+
+#TextBack3 {
+    height: 190px;
+    width: 270px;
+    background-color: #0E83A8;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    color: white;
+    display: block;
+    transition: 
+        transform 0.5s;
+}
+#news3:hover #TextBack3{
+    transform: translate(0px, 180px);
+}
+
+#TextBack4 {
+    height: 210px;
+    width: 270px;
+    background-color: #0E83A8;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    color: white;
+    display: block;
+    transition: 
+        transform 0.5s;
+}
+#news4:hover #TextBack4{
+    transform: translate(0px, 140px);
+}
+
+
+#TextBack5 {
+    height: 250px;
+    width: 270px;
+    background-color: #0E83A8;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    color: white;
+    display: block;
+    transition: 
+        transform 0.5s;
+}
+#news5:hover #TextBack5{
+    transform: translate(0px, 140px);
+}
+
+/* Стили текстов к разным новостям */
+
+.newsBlockText1 {
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    margin-top: 140px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+.newsBlockText2 {
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+.newsBlockText3 {
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+.newsBlockText4 {
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    margin-top: 140px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+.newsBlockText5 {
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    margin-top: 140px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
 }
